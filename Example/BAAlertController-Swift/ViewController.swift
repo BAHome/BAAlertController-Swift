@@ -32,6 +32,7 @@ class ViewController: UIViewController {
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         
+        /// 切换demo 入口在这里！！！！！
         //        self.ba_alert3()
         self.ba_alert2()
     }
@@ -77,8 +78,12 @@ class ViewController: UIViewController {
             {
                 textField.isSecureTextEntry = true
             }
-            
+           
+            // swift 4.2
             NotificationCenter.default.addObserver(self, selector: #selector(self.handleAlertTextFieldDidChangeAction(_ :)), name: NSNotification.Name.UITextFieldTextDidChange, object: textField)
+            
+            // swift 5.0
+//            NotificationCenter.default.addObserver(self, selector: #selector(self.handleAlertTextFieldDidChangeAction(_ :)), name: UITextField.textDidChangeNotification, object: textField)
             
         }) { (index, alertController) in
             

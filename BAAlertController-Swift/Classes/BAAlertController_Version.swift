@@ -20,6 +20,18 @@ import Foundation
  OC 版 ：https://github.com/BAHome/BAAlertController
  Swift 版 ：https://github.com/BAHome/BAAlertController-Swift
  
+ 最新更新时间：2019-01-28 【倒叙】<br>
+ 最新Version：【Version：1.0.2】<br>
+ 更新内容：<br>
+ 1.0.2.1、部分代码优化，全面适配 swift 5.0<br>
+ 
+ 最新更新时间：2018-11-06 【倒叙】
+ 最新Version：【Version：1.0.1】
+ 更新内容：
+ 1.0.1.1、UIAlertController-alert/actionSheet，可以自由设置按钮颜色、attributedTitle、attributedMessage
+ 1.0.1.2、全新 pod 改版，支持 pod 1.0.1 版本, pod 后，需导入头文件：BAAlertController_Swift
+ 1.0.1.3、部分代码优化，全面适配 swift 4.2
+ 
  最新更新时间：2018-11-06 【倒叙】
  最新Version：【Version：1.0.1】
  更新内容：
